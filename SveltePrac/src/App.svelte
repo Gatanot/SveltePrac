@@ -4,8 +4,8 @@
   import Counter from "./lib/Counter.svelte";
   import TimePanel from "./lib/TimePanel.svelte";
   import TodoList from "./lib/TodoList.svelte";
-  const TargetTime=new Date()
-  let Todos=["人工智能实验报告","信号与系统实验报告","软件工程策划案"]
+  const TargetTime = new Date();
+  let Todos = ["人工智能实验报告", "信号与系统实验报告", "软件工程策划案"];
 </script>
 
 <main>
@@ -13,9 +13,9 @@
   <h2>Counter</h2>
   <Counter />
   <h2>TimePanel</h2>
-  <TimePanel {TargetTime}/>
+  <TimePanel {TargetTime} />
   <h2>TodoList</h2>
-  <TodoList {Todos}/>
+  <TodoList {Todos} />
 </main>
 
 <style>
