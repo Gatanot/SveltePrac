@@ -1,1 +1,2 @@
 # SveltePrac
+这是一个简单的Svelte项目，用于练习Svelte的基本内容与git的分工使用
