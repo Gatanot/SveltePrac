@@ -1,6 +1,4 @@
 <script>
-  import svelteLogo from "./assets/svelte.svg";
-  import viteLogo from "/vite.svg";
   import Counter from "./lib/Counter.svelte";
   import TimePanel from "./lib/TimePanel.svelte";
   import TodoList from "./lib/TodoList.svelte";
