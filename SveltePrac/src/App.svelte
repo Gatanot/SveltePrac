@@ -13,7 +13,7 @@
   <h2>TimePanel</h2>
   <TimePanel {TargetTime} />
   <h2>TodoList</h2>
-  <TodoList {Todos} />
+  <TodoList todos={Todos} />
 </main>
 
 <style>
